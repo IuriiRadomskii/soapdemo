@@ -21,6 +21,7 @@ public class ProvidersServiceEndpoint {
     public GetInformationResult getInformation(@RequestPayload GetInformationArguments request) {
         GetInformationResult result = factory.createGetInformationResult();
         log.info("GetInformationArguments method called");
+
         return result;
     }
 }
